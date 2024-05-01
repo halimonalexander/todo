@@ -1,0 +1,8 @@
+services:
+  shortener:
+    image: golang/golang:latest
+    ports:
+      - 8080:8080
+
+  db:
+#    image: mongodb/mongo:latest
